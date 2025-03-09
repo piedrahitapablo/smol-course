@@ -11,5 +11,9 @@ dependencies = [
     "ipywidgets>=8.1.5",
     "transformers>=4.46.3",
     "trl>=0.12.1",
-    "bitsandbytes>=0.45.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
 ]
